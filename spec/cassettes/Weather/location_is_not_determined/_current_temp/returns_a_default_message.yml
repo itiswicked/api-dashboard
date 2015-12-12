@@ -1,0 +1,37 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.forecast.io/forecast/df1dfcd5377380fa28d44f0ebdbd8f7f/,
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Sat, 12 Dec 2015 21:47:35 GMT
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '181'
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: "<html>\r\n<head><title>400 Bad Request</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>400
+        Bad Request</h1></center>\r\n<hr><center>nginx/1.4.6 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
+    http_version: 
+  recorded_at: Sat, 12 Dec 2015 21:47:35 GMT
+recorded_with: VCR 2.5.0
