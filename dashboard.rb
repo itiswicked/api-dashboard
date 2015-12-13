@@ -18,10 +18,16 @@ class Dashboard < Sinatra::Base
 
 
   get '/weather' do
-    @ip = request.ip
-    @location = Geolocation.new(@ip)
+    @location = Geolocation.new(request.ip)
     @weather = Weather.new(@location.latitude, @location.longitude)
     erb :weather
+  end
+
+
+  get '/events' do
+    @location = Geolocation.new(request.ip)
+    @events = Events.new(@location.city).all
+    erb :events
   end
 
 end

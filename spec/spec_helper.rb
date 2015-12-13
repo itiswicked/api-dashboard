@@ -2,6 +2,7 @@ ENV["RACK_ENV"] ||= "test"
 
 require_relative '../dashboard.rb'
 require_relative '../lib/weather'
+require_relative '../lib/events'
 
 require "capybara/rspec"
 require "pry"

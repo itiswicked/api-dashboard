@@ -1,0 +1,205 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://freegeoip.net/json/127.0.0.1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - freegeoip.net
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, HEAD, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json
+      X-Database-Date:
+      - Wed, 02 Dec 2015 07:06:58 GMT
+      X-Ratelimit-Limit:
+      - '10000'
+      X-Ratelimit-Remaining:
+      - '9987'
+      X-Ratelimit-Reset:
+      - '259'
+      Date:
+      - Sun, 13 Dec 2015 00:07:24 GMT
+      Content-Length:
+      - '170'
+    body:
+      encoding: UTF-8
+      string: |
+        {"ip":"127.0.0.1","country_code":"","country_name":"","region_code":"","region_name":"","city":"","zip_code":"","time_zone":"","latitude":0,"longitude":0,"metro_code":0}
+    http_version: 
+  recorded_at: Sun, 13 Dec 2015 00:07:24 GMT
+- request:
+    method: get
+    uri: http://freegeoip.net/json/127.0.0.1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - freegeoip.net
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, HEAD, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json
+      X-Database-Date:
+      - Wed, 02 Dec 2015 07:06:58 GMT
+      X-Ratelimit-Limit:
+      - '10000'
+      X-Ratelimit-Remaining:
+      - '9999'
+      X-Ratelimit-Reset:
+      - '3600'
+      Date:
+      - Sun, 13 Dec 2015 00:30:26 GMT
+      Content-Length:
+      - '170'
+    body:
+      encoding: UTF-8
+      string: |
+        {"ip":"127.0.0.1","country_code":"","country_name":"","region_code":"","region_name":"","city":"","zip_code":"","time_zone":"","latitude":0,"longitude":0,"metro_code":0}
+    http_version: 
+  recorded_at: Sun, 13 Dec 2015 00:30:26 GMT
+- request:
+    method: get
+    uri: http://api.seatgeek.com/2/events?datetime_local.gte=2015-12-12&datetime_local.lte=2015-12-13&venue.city=Boston
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - TornadoServer/3.2 (Gunicorn/18.0)
+      Etag:
+      - '"1c06386f44936e20b492c97f634b2a631ace0df3"'
+      Cache-Control:
+      - max-age=1800
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '3196'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sun, 13 Dec 2015 00:30:29 GMT
+      X-Varnish:
+      - 1132055223 1132030128
+      Age:
+      - '494'
+      Via:
+      - 1.1 varnish
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"meta":{"per_page":10,"total":23,"page":1,"geolocation":null},"events":[{"links":[],"id":2848010,"stats":{"listing_count":2,"average_price":5.0,"lowest_price_good_deals":null,"lowest_price":3.0,"highest_price":7.0},"title":"Stony
+        Brook Seawolves at Northeastern Huskies Basketball","announce_date":"2015-10-09T00:00:00","score":0.36208,"date_tbd":false,"type":"ncaa_basketball","datetime_local":"2015-12-12T16:00:00","visible_until_utc":"2015-12-13T01:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":1000000,"name":"sports"},{"parent_id":1000000,"id":1030000,"name":"basketball"},{"parent_id":1030000,"id":1030200,"name":"ncaa_basketball"}],"performers":[{"stats":{"event_count":21},"name":"Northeastern
+        Huskies Basketball","short_name":"Northeastern","url":"https://seatgeek.com/northeastern-huskies-basketball-tickets","type":"ncaa_basketball","image":null,"home_team":true,"home_venue_id":4208,"primary":true,"score":0.42775,"images":{},"slug":"northeastern-huskies-basketball","taxonomies":[{"parent_id":null,"id":1000000,"name":"sports"},{"parent_id":1000000,"id":1030000,"name":"basketball"},{"parent_id":1030000,"id":1030200,"name":"ncaa_basketball"}],"has_upcoming_events":true,"id":6631},{"away_team":true,"stats":{"event_count":22},"name":"Stony
+        Brook Seawolves Basketball","short_name":"Stony Brook","url":"https://seatgeek.com/stony-brook-seawolves-basketball-tickets","type":"ncaa_basketball","image":null,"home_venue_id":6401,"slug":"stony-brook-seawolves-basketball","score":0.32846,"images":{},"taxonomies":[{"parent_id":null,"id":1000000,"name":"sports"},{"parent_id":1000000,"id":1030000,"name":"basketball"},{"parent_id":1030000,"id":1030200,"name":"ncaa_basketball"}],"has_upcoming_events":true,"id":6642}],"url":"https://seatgeek.com/stony-brook-seawolves-at-northeastern-huskies-basketball-tickets/ncaa-basketball/2015-12-12-4-pm/2848010/","created_at":"2015-10-09T00:00:00","venue":{"city":"Boston","name":"Matthews
+        Arena","extended_address":"Boston, MA 02115","url":"https://seatgeek.com/venues/matthews-arena/tickets/","country":"US","display_location":"Boston,
+        MA","links":[],"slug":"matthews-arena","state":"MA","score":0.31003,"postal_code":"02115","location":{"lat":42.3415,"lon":-71.0849},"address":"238
+        Saint Botolph Street","timezone":"America/New_York","id":4208},"short_title":"Stony
+        Brook at Northeastern","datetime_utc":"2015-12-12T21:00:00","datetime_tbd":false},{"links":[],"id":2651474,"stats":{"listing_count":1,"average_price":101.0,"lowest_price_good_deals":101.0,"lowest_price":101.0,"highest_price":101.0},"title":"Blue
+        Man Group - Boston","announce_date":"2015-06-19T00:00:00","score":0.49376,"date_tbd":false,"type":"theater","datetime_local":"2015-12-12T17:00:00","visible_until_utc":"2015-12-13T02:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"}],"performers":[{"stats":{"event_count":1488},"name":"Blue
+        Man Group","short_name":"Blue Man Group","url":"https://seatgeek.com/blue-man-group-tickets","type":"theater","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/blue-man-group-6cdc66/5194/huge.jpg","home_venue_id":null,"primary":true,"score":0.40122,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/blue-man-group-6cdc66/5194/huge.jpg"},"slug":"blue-man-group","taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"}],"has_upcoming_events":true,"id":5194,"genres":[{"slug":"experimental","primary":true,"name":"experimental"}]}],"url":"https://seatgeek.com/blue-man-group-boston-tickets/theater/2015-12-12-5-pm/2651474/","created_at":"2015-06-19T00:00:00","venue":{"city":"Boston","name":"Charles
+        Playhouse","extended_address":"Boston, MA 02116","url":"https://seatgeek.com/venues/charles-playhouse/tickets/","country":"US","display_location":"Boston,
+        MA","links":[],"slug":"charles-playhouse","state":"MA","score":0.42546,"postal_code":"02116","location":{"lat":42.3503,"lon":-71.066},"address":"74
+        Warrenton Street","timezone":"America/New_York","id":3188},"short_title":"Blue
+        Man Group - Boston","datetime_utc":"2015-12-12T22:00:00","datetime_tbd":false},{"links":[],"id":2770378,"stats":{"listing_count":null,"average_price":null,"lowest_price_good_deals":null,"lowest_price":null,"highest_price":null},"title":"Between
+        The Buried And Me with Native Construct","announce_date":"2015-08-20T00:00:00","score":0.4921,"date_tbd":false,"type":"concert","datetime_local":"2015-12-12T17:00:00","visible_until_utc":"2015-12-13T02:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":11},"name":"Between
+        The Buried And Me","short_name":"Between The Buried And Me","url":"https://seatgeek.com/between-the-buried-and-me-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/between-the-buried-and-me-8c0f05/2278/huge.jpg","home_venue_id":null,"primary":true,"score":0.40585,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/between-the-buried-and-me-8c0f05/2278/huge.jpg"},"slug":"between-the-buried-and-me","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":2278,"genres":[{"slug":"progressive-metal","primary":true,"name":"progressive-metal"}]},{"stats":{"event_count":1},"name":"Native
+        Construct","short_name":"Native Construct","url":"https://seatgeek.com/native-construct-tickets","type":"band","image":null,"home_venue_id":null,"slug":"native-construct","score":0.24372,"images":{},"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":322665}],"url":"https://seatgeek.com/between-the-buried-and-me-with-native-construct-tickets/boston-massachusetts-house-of-blues-boston-2015-12-12-5-pm/concert/2770378/","created_at":"2015-08-20T00:00:00","venue":{"city":"Boston","name":"House
+        of Blues Boston","extended_address":"Boston, MA 02215","url":"https://seatgeek.com/venues/house-of-blues-boston/tickets/","country":"US","display_location":"Boston,
+        MA","links":[],"slug":"house-of-blues-boston","state":"MA","score":0.6318,"postal_code":"02215","location":{"lat":42.2913,"lon":-71.0889},"address":"15
+        Lansdowne St.","timezone":"America/New_York","id":517},"short_title":"Between
+        The Buried And Me with Native Construct","datetime_utc":"2015-12-12T22:00:00","datetime_tbd":false},{"links":[],"id":2896456,"stats":{"listing_count":null,"average_price":null,"lowest_price_good_deals":null,"lowest_price":null,"highest_price":null},"title":"Shear
+        Madness - Boston","announce_date":"2015-10-30T00:00:00","score":0.42318,"date_tbd":false,"type":"theater","datetime_local":"2015-12-12T18:00:00","visible_until_utc":"2015-12-13T03:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"}],"performers":[{"stats":{"event_count":184},"name":"Shear
+        Madness","short_name":"Shear Madness","url":"https://seatgeek.com/shear-madness-tickets","type":"theater","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/shear-madness-c4eb44/11748/huge.jpg","home_venue_id":null,"primary":true,"score":0.35075,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/shear-madness-c4eb44/11748/huge.jpg"},"slug":"shear-madness","taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"}],"has_upcoming_events":true,"id":11748}],"url":"https://seatgeek.com/shear-madness-boston-tickets/theater/2015-12-12-6-pm/2896456/","created_at":"2015-10-30T00:00:00","venue":{"city":"Boston","name":"Charles
+        Playhouse Second Stage","extended_address":"Boston, MA 02116","url":"https://seatgeek.com/venues/charles-playhouse-second-stage/tickets/","country":"US","display_location":"Boston,
+        MA","links":[],"slug":"charles-playhouse-second-stage","state":"MA","score":0,"postal_code":"02116","location":{"lat":42.35,"lon":-71.066},"address":"74
+        Warrenton Street","timezone":"America/New_York","id":51387},"short_title":"Shear
+        Madness - Boston","datetime_utc":"2015-12-12T23:00:00","datetime_tbd":false},{"links":[],"id":2925742,"stats":{"listing_count":1,"average_price":31.0,"lowest_price_good_deals":null,"lowest_price":31.0,"highest_price":31.0},"title":"Shit-faced
+        Shakespeare","announce_date":"2015-11-13T00:00:00","score":0.20178,"date_tbd":false,"type":"comedy","datetime_local":"2015-12-12T18:00:00","visible_until_utc":"2015-12-13T03:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3040000,"name":"comedy"}],"performers":[{"stats":{"event_count":6},"name":"Shit-faced
+        Shakespeare","short_name":"Shit-faced Shakespeare","url":"https://seatgeek.com/shit-faced-shakespeare-tickets","type":"theater_comedy","image":null,"home_venue_id":null,"primary":true,"score":0,"images":{},"slug":"shit-faced-shakespeare","taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3040000,"name":"comedy"}],"has_upcoming_events":true,"id":388690}],"url":"https://seatgeek.com/shit-faced-shakespeare-tickets/comedy/2015-12-12-6-pm/2925742/","created_at":"2015-11-13T00:00:00","venue":{"city":"Boston","name":"Laugh
+        Boston","extended_address":"Boston, MA 02210","url":"https://seatgeek.com/venues/laugh-boston/tickets/","country":"US","display_location":"Boston,
+        MA","links":[],"slug":"laugh-boston","state":"MA","score":0,"postal_code":"02210","location":{"lat":42.3461,"lon":-71.0433},"address":"425
+        Summer St.","timezone":"America/New_York","id":57227},"short_title":"Shit-faced
+        Shakespeare","datetime_utc":"2015-12-12T23:00:00","datetime_tbd":false},{"links":[],"id":2826395,"stats":{"listing_count":null,"average_price":null,"lowest_price_good_deals":null,"lowest_price":null,"highest_price":null},"title":"Johnnyswim","announce_date":"2015-09-29T00:00:00","score":0.44368,"date_tbd":false,"type":"concert","datetime_local":"2015-12-12T18:30:00","visible_until_utc":"2015-12-13T03:30:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":14},"name":"Johnnyswim","short_name":"Johnnyswim","url":"https://seatgeek.com/johnnyswim-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/johnnyswim-a268e7/105222/huge.jpg","home_venue_id":null,"primary":true,"score":0.42401,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/johnnyswim-a268e7/105222/huge.jpg"},"slug":"johnnyswim","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":105222}],"url":"https://seatgeek.com/johnnyswim-tickets/boston-massachusetts-royale-boston-2015-12-12-6-30-pm/concert/2826395/","created_at":"2015-09-29T00:00:00","venue":{"city":"Boston","name":"Royale
+        Boston","extended_address":"Boston, MA 02116","url":"https://seatgeek.com/venues/royale-boston/tickets/","country":"US","display_location":"Boston,
+        MA","links":[],"slug":"royale-boston","state":"MA","score":0.55157,"postal_code":"02116","location":{"lat":42.3601,"lon":-71.0589},"address":"279
+        Tremont St.","timezone":"America/New_York","id":2458},"short_title":"Johnnyswim","datetime_utc":"2015-12-12T23:30:00","general_admission":true,"datetime_tbd":false},{"links":[],"id":2682780,"stats":{"listing_count":12,"average_price":80.0,"lowest_price_good_deals":73.0,"lowest_price":73.0,"highest_price":87.0},"title":"Boston
+        Ballet - Boston","announce_date":"2015-07-09T00:00:00","score":0.53757,"date_tbd":false,"type":"dance_performance_tour","datetime_local":"2015-12-12T19:30:00","visible_until_utc":"2015-12-13T04:30:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3060000,"name":"dance_performance_tour"}],"performers":[{"stats":{"event_count":27},"name":"Boston
+        Ballet","short_name":"Boston Ballet","url":"https://seatgeek.com/boston-ballet-tickets","type":"theater_dance_performance_tour","image":null,"home_venue_id":null,"primary":true,"score":0.40288,"images":{},"slug":"boston-ballet","taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3060000,"name":"dance_performance_tour"}],"has_upcoming_events":true,"id":6688},{"stats":{"event_count":1044},"name":"The
+        Nutcracker","short_name":"The Nutcracker","url":"https://seatgeek.com/the-nutcracker-tickets","type":"theater_dance_performance_tour","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/the-nutcracker-b25092/7746/huge.jpg","home_venue_id":null,"slug":"the-nutcracker","score":0.46048,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/the-nutcracker-b25092/7746/huge.jpg"},"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3060000,"name":"dance_performance_tour"}],"has_upcoming_events":true,"id":7746}],"url":"https://seatgeek.com/boston-ballet-boston-tickets/dance/2015-12-12-7-30-pm/2682780/","created_at":"2015-07-09T00:00:00","venue":{"city":"Boston","name":"Boston
+        Opera House","extended_address":"Boston, MA 02111","url":"https://seatgeek.com/venues/boston-opera-house/tickets/","country":"US","display_location":"Boston,
+        MA","links":[],"slug":"boston-opera-house","state":"MA","score":0.62587,"postal_code":"02111","location":{"lat":42.3586,"lon":-71.0567},"address":"539
+        Washington Street","timezone":"America/New_York","id":2501},"short_title":"Boston
+        Ballet - Boston","datetime_utc":"2015-12-13T00:30:00","datetime_tbd":false},{"links":[],"id":2826950,"stats":{"listing_count":20,"average_price":23.0,"lowest_price_good_deals":16.0,"lowest_price":12.0,"highest_price":87.0},"title":"The
+        Arcs with Mariachi Flor de Toloache and Dan Auerbach","announce_date":"2015-09-29T00:00:00","score":0.58871,"date_tbd":false,"type":"concert","datetime_local":"2015-12-12T19:30:00","visible_until_utc":"2015-12-13T04:30:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":5},"name":"Dan
+        Auerbach","short_name":"Dan Auerbach","url":"https://seatgeek.com/dan-auerbach-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/dan-auerbach-91205a/531/huge.jpg","home_venue_id":null,"slug":"dan-auerbach","score":0.41914,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/dan-auerbach-91205a/531/huge.jpg"},"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":531,"genres":[{"slug":"blues","primary":true,"name":"blues"}]},{"stats":{"event_count":5},"name":"Mariachi
+        Flor de Toloache","short_name":"Mariachi Flor de Toloache","url":"https://seatgeek.com/mariachi-flor-de-toloache-tickets","type":"band","image":null,"home_venue_id":null,"slug":"mariachi-flor-de-toloache","score":0.38303,"images":{},"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":357859},{"stats":{"event_count":7},"name":"The
+        Arcs","short_name":"The Arcs","url":"https://seatgeek.com/the-arcs-tickets","type":"band","image":null,"home_venue_id":null,"primary":true,"score":0.48958,"images":{},"slug":"the-arcs","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":360801}],"url":"https://seatgeek.com/the-arcs-with-mariachi-flor-de-toloache-and-dan-auerbach-tickets/boston-massachusetts-orpheum-theatre-1-2015-12-12-7-30-pm/concert/2826950/","created_at":"2015-09-29T00:00:00","venue":{"city":"Boston","name":"Orpheum
+        Theatre","extended_address":"Boston, MA 02108","url":"https://seatgeek.com/venues/orpheum-theatre-1/tickets/","country":"US","display_location":"Boston,
+        MA","links":[],"slug":"orpheum-theatre-1","state":"MA","score":0.67406,"postal_code":"02108","location":{"lat":42.3566,"lon":-71.0615},"address":"1
+        Hamilton Place","timezone":"America/New_York","id":1239},"short_title":"The
+        Arcs with Mariachi Flor de Toloache and Dan Auerbach","datetime_utc":"2015-12-13T00:30:00","datetime_tbd":false},{"links":[],"id":2785131,"stats":{"listing_count":null,"average_price":null,"lowest_price_good_deals":null,"lowest_price":null,"highest_price":null},"title":"Boston
+        Holiday Pops - Boston","announce_date":"2015-08-27T00:00:00","score":0.47646,"date_tbd":false,"type":"classical","datetime_local":"2015-12-12T19:30:00","visible_until_utc":"2015-12-13T04:30:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3010000,"name":"classical"}],"performers":[{"stats":{"event_count":29},"name":"Holiday
+        Pops","short_name":"Holiday Pops","url":"https://seatgeek.com/holiday-pops-tickets","type":"theater_classical_orchestral_instrumental","image":null,"home_venue_id":null,"slug":"holiday-pops","score":0.50225,"images":{},"taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3010000,"name":"classical"},{"parent_id":3010000,"id":3010300,"name":"classical_orchestral_instrumental"}],"has_upcoming_events":true,"id":6910},{"stats":{"event_count":21},"name":"Boston
+        Holiday Pops","short_name":"Boston Holiday Pops","url":"https://seatgeek.com/boston-holiday-pops-tickets","type":"theater_classical","image":null,"home_venue_id":null,"primary":true,"score":0.46647,"images":{},"slug":"boston-holiday-pops","taxonomies":[{"parent_id":null,"id":3000000,"name":"theater"},{"parent_id":3000000,"id":3010000,"name":"classical"}],"has_upcoming_events":true,"id":38671}],"url":"https://seatgeek.com/boston-holiday-pops-boston-tickets/classical/2015-12-12-7-30-pm/2785131/","created_at":"2015-08-27T00:00:00","venue":{"city":"Boston","name":"Boston
+        Symphony Hall","extended_address":"Boston, MA 02115","url":"https://seatgeek.com/venues/boston-symphony-hall/tickets/","country":"US","display_location":"Boston,
+        MA","links":[],"slug":"boston-symphony-hall","state":"MA","score":0.51845,"postal_code":"02115","location":{"lat":42.3429,"lon":-71.0857},"address":"301
+        Massachusetts Avenue","timezone":"America/New_York","id":584},"short_title":"Boston
+        Holiday Pops - Boston","datetime_utc":"2015-12-13T00:30:00","datetime_tbd":false},{"links":[],"id":2798993,"stats":{"listing_count":null,"average_price":null,"lowest_price_good_deals":null,"lowest_price":null,"highest_price":null},"title":"Robert
+        Glasper","announce_date":"2015-09-04T00:00:00","score":0.43285,"date_tbd":false,"type":"concert","datetime_local":"2015-12-12T20:00:00","visible_until_utc":"2015-12-13T05:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"stats":{"event_count":11},"name":"Robert
+        Glasper","short_name":"Robert Glasper","url":"https://seatgeek.com/robert-glasper-tickets","type":"band","image":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/robert-glasper-aa6ca5/18154/huge.jpg","home_venue_id":null,"primary":true,"score":0.44173,"images":{"huge":"https://chairnerd.global.ssl.fastly.net/images/performers-landscape/robert-glasper-aa6ca5/18154/huge.jpg"},"slug":"robert-glasper","taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"has_upcoming_events":true,"id":18154,"genres":[{"slug":"jazz","primary":true,"name":"jazz"}]}],"url":"https://seatgeek.com/robert-glasper-tickets/boston-massachusetts-scullers-jazz-club-1-2015-12-12-8-pm/concert/2798993/","created_at":"2015-09-04T00:00:00","venue":{"city":"Boston","name":"Scullers
+        Jazz Club","extended_address":"Boston, MA 02134","url":"https://seatgeek.com/venues/scullers-jazz-club-1/tickets/","country":"US","display_location":"Boston,
+        MA","links":[],"slug":"scullers-jazz-club-1","state":"MA","score":0.35691,"postal_code":"02134","location":{"lat":42.3602,"lon":-71.1181},"address":"400
+        Soldiers Field Road","timezone":"America/New_York","id":1826},"short_title":"Robert
+        Glasper","datetime_utc":"2015-12-13T01:00:00","general_admission":true,"datetime_tbd":false}]}'
+    http_version: 
+  recorded_at: Sun, 13 Dec 2015 00:30:29 GMT
+recorded_with: VCR 2.5.0
