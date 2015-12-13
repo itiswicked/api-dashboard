@@ -9,7 +9,6 @@ feature 'events', vcr: true do
   scenario 'user views a list of today\'s events in their area' do
     visit '/'
     click_link 'Events'
-save_and_open_page
     expect(page).to have_content "Stony"
     expect(page).to have_content "Arcs"
     expect(page).to have_content "Shit-faced Shakespeare"

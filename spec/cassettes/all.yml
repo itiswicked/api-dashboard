@@ -1,0 +1,461 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.nytimes.com/svc/topstories/v1/technology.json?api-key=92dd6c46e1b06ed5d04720a8033b8db2:3:73751086
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Mashery-Responder:
+      - prod-j-worker-atl-03.mashery.com
+      X-Amz-Id-2:
+      - KJX6VrIxeL6zLkmbMFC1+pGSLxrivXwVNxtmIw+bUcXf11jAoyjglZ6r8YZxx5/V21fLWp8PbzE=
+      X-Amz-Request-Id:
+      - 04EF2F346485E7DD
+      Date:
+      - Sun, 13 Dec 2015 01:05:30 GMT
+      Last-Modified:
+      - Sun, 13 Dec 2015 01:05:19 GMT
+      Etag:
+      - '"9be61273ee3203e2b2a0cedd5de5e663"'
+      Accept-Ranges:
+      - bytes
+      Content-Type:
+      - text/json
+      Content-Length:
+      - '59620'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      string: '{"status":"OK","copyright":"Copyright (c) 2015 The New York Times Company.
+        All Rights Reserved.","section":"technology","last_updated":"2015-12-12T20:05:07-05:00","num_results":29,"results":[{"section":"Science","subsection":"","title":"Artificial-Intelligence
+        Research Center Is Founded by Silicon Valley Investors","abstract":"The investors
+        \u2014 including Elon Musk, Peter Thiel and Reid Hoffman \u2014 said they
+        planned to commit $1 billion to the project long-term, but only small sums
+        to start.","url":"http:\/\/www.nytimes.com\/2015\/12\/12\/science\/artificial-intelligence-research-center-is-founded-by-silicon-valley-investors.html","byline":"By
+        JOHN MARKOFF","item_type":"Article","updated_date":"2015-12-11T16:48:30-5:00","created_date":"2015-12-11T16:48:38-5:00","published_date":"2015-12-12T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Artificial
+        Intelligence","Research"],"org_facet":"","per_facet":"","geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/12\/science\/12valley-web\/12valley-web-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Elon
+        Musk, the chief of Tesla, is among the investors behind a new artificial-intelligence
+        research center.","copyright":"Eric Piermont\/Agence France-Presse \u2014
+        Getty Images"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/12\/science\/12valley-web\/12valley-web-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Elon
+        Musk, the chief of Tesla, is among the investors behind a new artificial-intelligence
+        research center.","copyright":"Eric Piermont\/Agence France-Presse \u2014
+        Getty Images"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/12\/science\/12valley-web\/12valley-web-articleInline.jpg","format":"Normal","height":131,"width":190,"type":"image","subtype":"photo","caption":"Elon
+        Musk, the chief of Tesla, is among the investors behind a new artificial-intelligence
+        research center.","copyright":"Eric Piermont\/Agence France-Presse \u2014
+        Getty Images"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/12\/science\/12valley-web\/12valley-web-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Elon
+        Musk, the chief of Tesla, is among the investors behind a new artificial-intelligence
+        research center.","copyright":"Eric Piermont\/Agence France-Presse \u2014
+        Getty Images"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/12\/science\/12valley-web\/12valley-web-superJumbo.jpg","format":"superJumbo","height":1414,"width":2048,"type":"image","subtype":"photo","caption":"Elon
+        Musk, the chief of Tesla, is among the investors behind a new artificial-intelligence
+        research center.","copyright":"Eric Piermont\/Agence France-Presse \u2014
+        Getty Images"}]},{"section":"Business Day","subsection":"DealBook","title":"Alibaba
+        Buying South China Morning Post, Aiming to Influence Media","abstract":"The
+        Chinese Internet giant said the deal was fueled by a desire to improve China\u2019s
+        image and offer an alternative to the biased lens of Western news outlets.","url":"http:\/\/www.nytimes.com\/2015\/12\/12\/business\/dealbook\/alibaba-scmp-south-china-morning-post.html","byline":"By
+        DAVID BARBOZA","item_type":"Article","updated_date":"2015-12-11T14:49:19-5:00","created_date":"2015-12-11T07:54:13-5:00","published_date":"2015-12-12T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Mergers,
+        Acquisitions and Divestitures","News and News Media"],"org_facet":["Alibaba
+        Group Holding Ltd","South China Morning Post Limited"],"per_facet":["Ma, Jack"],"geo_facet":["Hong
+        Kong","China"],"multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/00db-alibaba-web\/00db-alibaba-web-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Copies
+        of the South China Morning Post are displayed for sale at a newsstand in Hong
+        Kong.","copyright":"Dale De La Rey\/Agence France-Presse \u2014 Getty Images"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/00db-alibaba-web\/00db-alibaba-web-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Copies
+        of the South China Morning Post are displayed for sale at a newsstand in Hong
+        Kong.","copyright":"Dale De La Rey\/Agence France-Presse \u2014 Getty Images"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/00db-alibaba-web\/00alibaba-web-articleInline.jpg","format":"Normal","height":126,"width":190,"type":"image","subtype":"photo","caption":"Copies
+        of the South China Morning Post are displayed for sale at a newsstand in Hong
+        Kong.","copyright":"Dale De La Rey\/Agence France-Presse \u2014 Getty Images"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/00db-alibaba-web\/00db-alibaba-web-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Copies
+        of the South China Morning Post are displayed for sale at a newsstand in Hong
+        Kong.","copyright":"Dale De La Rey\/Agence France-Presse \u2014 Getty Images"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/00db-alibaba-web\/00alibaba-web-superJumbo.jpg","format":"superJumbo","height":1363,"width":2048,"type":"image","subtype":"photo","caption":"Copies
+        of the South China Morning Post are displayed for sale at a newsstand in Hong
+        Kong.","copyright":"Dale De La Rey\/Agence France-Presse \u2014 Getty Images"}]},{"section":"Arts","subsection":"Music","title":"John
+        Eaton, Composer and Electronic Innovator, Dies at 80","abstract":"Mr. Eaton,
+        who was also an academic and inventor, was a creator of operas large and small.","url":"http:\/\/www.nytimes.com\/2015\/12\/13\/arts\/music\/john-eaton-composer-and-electronic-innovator-dies-at-80.html","byline":"By
+        WILLIAM GRIMES","item_type":"Article","updated_date":"2015-12-12T15:46:58-5:00","created_date":"2015-12-12T15:47:01-5:00","published_date":"2015-12-13T00:00:00-5:00","material_type_facet":"Obituary
+        (Obit)","kicker":"","des_facet":["Deaths (Obituaries)","Music","Opera","Musical
+        Instruments"],"org_facet":"","per_facet":["Eaton, John"],"geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/13\/arts\/13eaton-obit-1\/13eaton-obit-1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"John
+        Eaton in 2004. He was a pioneer of synthesized music.","copyright":"Suzanne
+        DeChillo\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/13\/arts\/13eaton-obit-1\/13eaton-obit-1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"John
+        Eaton in 2004. He was a pioneer of synthesized music.","copyright":"Suzanne
+        DeChillo\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/13\/arts\/13eaton-obit-1\/13eaton-obit-1-articleInline.jpg","format":"Normal","height":285,"width":190,"type":"image","subtype":"photo","caption":"John
+        Eaton in 2004. He was a pioneer of synthesized music.","copyright":"Suzanne
+        DeChillo\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/13\/arts\/13eaton-obit-1\/13eaton-obit-1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"John
+        Eaton in 2004. He was a pioneer of synthesized music.","copyright":"Suzanne
+        DeChillo\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/13\/arts\/13eaton-obit-1\/13eaton-obit-1-superJumbo.jpg","format":"superJumbo","height":2048,"width":1366,"type":"image","subtype":"photo","caption":"John
+        Eaton in 2004. He was a pioneer of synthesized music.","copyright":"Suzanne
+        DeChillo\/The New York Times"}]},{"section":"Opinion","subsection":"Sunday
+        Review","title":"Your iPhone Is Ruining Your Posture \u2014 and Your Mood","abstract":"Stop
+        slouching over that tiny screen. It\u2019s bad for your self-esteem.","url":"http:\/\/www.nytimes.com\/2015\/12\/13\/opinion\/sunday\/your-iphone-is-ruining-your-posture-and-your-mood.html","byline":"By
+        AMY CUDDY","item_type":"Article","updated_date":"2015-12-12T14:30:01-5:00","created_date":"2015-12-12T14:30:08-5:00","published_date":"2015-12-13T00:00:00-5:00","material_type_facet":"Op-Ed","kicker":"","des_facet":["Smartphones","Posture","Neck","Mental
+        Health and Disorders","Memory","Psychology and Psychologists"],"org_facet":"","per_facet":"","geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/13\/opinion\/sunday\/13cuddy\/13cuddy-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"","copyright":"Tim
+        Lahan"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/13\/opinion\/sunday\/13cuddy\/13cuddy-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"","copyright":"Tim
+        Lahan"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/13\/opinion\/sunday\/13cuddy\/13cuddy-articleInline-v5.jpg","format":"Normal","height":198,"width":190,"type":"image","subtype":"photo","caption":"","copyright":"Tim
+        Lahan"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/13\/opinion\/sunday\/13cuddy\/13cuddy-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"","copyright":"Tim
+        Lahan"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/13\/opinion\/sunday\/13cuddy\/13cuddy-superJumbo.jpg","format":"superJumbo","height":1310,"width":980,"type":"image","subtype":"photo","caption":"","copyright":"Tim
+        Lahan"}]},{"section":"Business Day","subsection":"","title":"Today\u2019s
+        Butlers Are Trading Silver Trays for iPads","abstract":"Recruitment agencies
+        are now seeking prospective butlers with I.T. skills to manage everything
+        from retinal scanners to scented ventilation systems.","url":"http:\/\/www.nytimes.com\/2015\/12\/13\/business\/todays-butlers-are-trading-silver-trays-for-ipads.html","byline":"By
+        ROBERT FRANK","item_type":"Article","updated_date":"2015-12-12T12:44:54-5:00","created_date":"2015-12-12T12:44:54-5:00","published_date":"2015-12-13T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Domestic
+        Service","Computers and the Internet","High Net Worth Individuals","Vocational
+        Training"],"org_facet":"","per_facet":"","geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/13\/business\/13WEALTH\/13WEALTH-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"","copyright":"Thomas
+        Pitilli"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/13\/business\/13WEALTH\/13WEALTH-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"","copyright":"Thomas
+        Pitilli"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/13\/business\/13WEALTH\/13WEALTH-articleInline.jpg","format":"Normal","height":209,"width":190,"type":"image","subtype":"photo","caption":"","copyright":"Thomas
+        Pitilli"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/13\/business\/13WEALTH\/13WEALTH-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"","copyright":"Thomas
+        Pitilli"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/13\/business\/13WEALTH\/13WEALTH-superJumbo.jpg","format":"superJumbo","height":1529,"width":1389,"type":"image","subtype":"photo","caption":"","copyright":"Thomas
+        Pitilli"}]},{"section":"Technology","subsection":"","title":"Farhad and Mike\u2019s
+        Week in Tech: Tempering Walmart\u2019s Digital Ambitions","abstract":"A look
+        at Walmart\u2019s foray into digital wallets, Airbnb\u2019s transparency claims
+        and Yahoo\u2019s big week.","url":"http:\/\/www.nytimes.com\/2015\/12\/13\/technology\/farhad-and-mikes-week-in-tech-tempering-walmarts-digital-ambitions.html","byline":"By
+        FARHAD MANJOO and MIKE ISAAC","item_type":"Article","updated_date":"2015-12-12T09:30:14-5:00","created_date":"2015-12-12T09:30:14-5:00","published_date":"2015-12-13T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Mobile
+        Commerce and Payments","Credit Cards","Bitcoin (Currency)"],"org_facet":["Walmart
+        Stores Inc","Airbnb","Yahoo! Inc","Atlassian Pty Ltd"],"per_facet":["Mayer,
+        Marissa"],"geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/13\/business\/13technewsletter-web1\/13technewsletter-web1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"This
+        week, Walmart announced that it was also jumping into the fray of digital
+        wallets and would offer its customers a way to pay for stuff at its stores
+        using Walmart\u2019s own app.","copyright":"Jim Wilson\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/13\/business\/13technewsletter-web1\/13technewsletter-web1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"This
+        week, Walmart announced that it was also jumping into the fray of digital
+        wallets and would offer its customers a way to pay for stuff at its stores
+        using Walmart\u2019s own app.","copyright":"Jim Wilson\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/13\/business\/13technewsletter-web1\/13technewsletter-web1-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"This
+        week, Walmart announced that it was also jumping into the fray of digital
+        wallets and would offer its customers a way to pay for stuff at its stores
+        using Walmart\u2019s own app.","copyright":"Jim Wilson\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/13\/business\/13technewsletter-web1\/13technewsletter-web1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"This
+        week, Walmart announced that it was also jumping into the fray of digital
+        wallets and would offer its customers a way to pay for stuff at its stores
+        using Walmart\u2019s own app.","copyright":"Jim Wilson\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/13\/business\/13technewsletter-web1\/13technewsletter-web1-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"This
+        week, Walmart announced that it was also jumping into the fray of digital
+        wallets and would offer its customers a way to pay for stuff at its stores
+        using Walmart\u2019s own app.","copyright":"Jim Wilson\/The New York Times"}]},{"section":"Business
+        Day","subsection":"","title":"Uber Is Said to Be Shaking Up Policy and Communications
+        Team","abstract":"The company is said to be cutting about 20 jobs, mostly
+        at the headquarters in San Francisco, as it shifts its strategy under new
+        executives.","url":"http:\/\/www.nytimes.com\/2015\/12\/12\/business\/uber-is-said-to-be-shaking-up-policy-and-communications-team.html","byline":"By
+        MIKE ISAAC","item_type":"Article","updated_date":"2015-12-11T20:52:40-5:00","created_date":"2015-12-11T20:52:46-5:00","published_date":"2015-12-12T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Layoffs
+        and Job Reductions","Car Services and Livery Cabs"],"org_facet":["Uber Technologies
+        Inc"],"per_facet":["Plouffe, David","Whetstone, Rachel (1968- )","Hazelbaker,
+        Jill (1981- )"],"geo_facet":["Silicon Valley (Calif)"],"multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/12\/business\/12Uber\/12Uber-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Uber''s
+        headquarters in San Francisco. The car-hailing company is cutting about 20
+        jobs in its policy and communications department.","copyright":"Eric Risberg\/Associated
+        Press"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/12\/business\/12Uber\/12Uber-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Uber''s
+        headquarters in San Francisco. The car-hailing company is cutting about 20
+        jobs in its policy and communications department.","copyright":"Eric Risberg\/Associated
+        Press"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/12\/business\/12Uber\/12Uber-articleInline.jpg","format":"Normal","height":118,"width":190,"type":"image","subtype":"photo","caption":"Uber''s
+        headquarters in San Francisco. The car-hailing company is cutting about 20
+        jobs in its policy and communications department.","copyright":"Eric Risberg\/Associated
+        Press"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/12\/business\/12Uber\/12Uber-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Uber''s
+        headquarters in San Francisco. The car-hailing company is cutting about 20
+        jobs in its policy and communications department.","copyright":"Eric Risberg\/Associated
+        Press"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/12\/business\/12Uber\/12Uber-superJumbo.jpg","format":"superJumbo","height":1270,"width":2048,"type":"image","subtype":"photo","caption":"Uber''s
+        headquarters in San Francisco. The car-hailing company is cutting about 20
+        jobs in its policy and communications department.","copyright":"Eric Risberg\/Associated
+        Press"}]},{"section":"Technology","subsection":"","title":"Discrimination
+        by Airbnb Hosts Is Widespread, Report Says","abstract":"A hotel cannot examine
+        names of potential guests and reject them based on race, the authors say,
+        but that is common with short-term home rentals.","url":"http:\/\/www.nytimes.com\/2015\/12\/12\/business\/discrimination-by-airbnb-hosts-is-widespread-report-says.html","byline":"By
+        MIKE McPHATE","item_type":"Article","updated_date":"2015-12-11T13:06:12-5:00","created_date":"2015-12-11T13:06:14-5:00","published_date":"2015-12-12T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Discrimination","Blacks"],"org_facet":["Airbnb","Harvard
+        Business School"],"per_facet":["Edelman, Benjamin G"],"geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/04\/business\/12xp-airbnb\/04xp-airbnb-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"A
+        study by three Harvard researchers found \u201cwidespread discrimination\u201d
+        against people with black-sounding names on Airbnb.","copyright":"Matthew
+        Millman for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/04\/business\/12xp-airbnb\/04xp-airbnb-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"A
+        study by three Harvard researchers found \u201cwidespread discrimination\u201d
+        against people with black-sounding names on Airbnb.","copyright":"Matthew
+        Millman for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/04\/business\/12xp-airbnb\/04xp-airbnb-articleInline.jpg","format":"Normal","height":125,"width":190,"type":"image","subtype":"photo","caption":"A
+        study by three Harvard researchers found \u201cwidespread discrimination\u201d
+        against people with black-sounding names on Airbnb.","copyright":"Matthew
+        Millman for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/04\/business\/12xp-airbnb\/04xp-airbnb-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"A
+        study by three Harvard researchers found \u201cwidespread discrimination\u201d
+        against people with black-sounding names on Airbnb.","copyright":"Matthew
+        Millman for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/04\/business\/12xp-airbnb\/04xp-airbnb-superJumbo.jpg","format":"superJumbo","height":1351,"width":2048,"type":"image","subtype":"photo","caption":"A
+        study by three Harvard researchers found \u201cwidespread discrimination\u201d
+        against people with black-sounding names on Airbnb.","copyright":"Matthew
+        Millman for The New York Times"}]},{"section":"Your Money","subsection":"","title":"Automatic
+        Payments Can Be Easy to Start, but Hard to Stop","abstract":"The Consumer
+        Financial Protection Bureau has tips to help consumers stop unwanted withdrawals
+        from their bank accounts.","url":"http:\/\/www.nytimes.com\/2015\/12\/12\/your-money\/automatic-payments-can-be-easy-to-start-but-hard-to-stop.html","byline":"By
+        ANN CARRNS","item_type":"Article","updated_date":"2015-12-11T12:41:31-5:00","created_date":"2015-12-11T12:41:37-5:00","published_date":"2015-12-12T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Consumer
+        Protection","Credit and Debt","Personal Finances"],"org_facet":"","per_facet":"","geo_facet":"","multimedia":""},{"section":"Your
+        Money","subsection":"","title":"For Children, Dumbed-Down Phones May Be Smartest
+        Option","abstract":"Since most new phones come with Internet access, parents
+        need to plan carefully to find devices that allow only texting and talking.
+        Or they need to make use of a smartphone\u2019s parental controls.","url":"http:\/\/www.nytimes.com\/2015\/12\/12\/your-money\/for-children-dumbed-down-phones-may-be-smartest-option.html","byline":"By
+        RON LIEBER","item_type":"Article","updated_date":"2015-12-11T17:36:46-5:00","created_date":"2015-12-11T11:16:14-5:00","published_date":"2015-12-12T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Children
+        and Childhood","Smartphones","Computers and the Internet","Mobile Applications"],"org_facet":"","per_facet":"","geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11money-web\/11money-web-thumbStandard-v2.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Janell
+        Burley Hofmann, mother of five children, wrote the book \u201ciRules: What
+        Every Tech-Healthy Family Needs to Know About Selfies, Sexting, Gaming and
+        Growing Up.\u201d","copyright":"Katherine Taylor for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11money-web\/11money-web-thumbLarge-v2.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Janell
+        Burley Hofmann, mother of five children, wrote the book \u201ciRules: What
+        Every Tech-Healthy Family Needs to Know About Selfies, Sexting, Gaming and
+        Growing Up.\u201d","copyright":"Katherine Taylor for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11money-web\/11money-web-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Janell
+        Burley Hofmann, mother of five children, wrote the book \u201ciRules: What
+        Every Tech-Healthy Family Needs to Know About Selfies, Sexting, Gaming and
+        Growing Up.\u201d","copyright":"Katherine Taylor for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11money-web\/11money-web-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Janell
+        Burley Hofmann, mother of five children, wrote the book \u201ciRules: What
+        Every Tech-Healthy Family Needs to Know About Selfies, Sexting, Gaming and
+        Growing Up.\u201d","copyright":"Katherine Taylor for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11money-web\/11money-web-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Janell
+        Burley Hofmann, mother of five children, wrote the book \u201ciRules: What
+        Every Tech-Healthy Family Needs to Know About Selfies, Sexting, Gaming and
+        Growing Up.\u201d","copyright":"Katherine Taylor for The New York Times"}]},{"section":"Sports","subsection":"","title":"DraftKings
+        and FanDuel Are Allowed to Operate in New York, for Now","abstract":"An appeals
+        court judge allowed the fantasy sports sites to keep operating in New York
+        until the legality of their games could be further considered.","url":"http:\/\/www.nytimes.com\/2015\/12\/12\/sports\/draftkings-fanduel-daily-fantasy-sports-judge-upholds-ruling.html","byline":"By
+        JOE DRAPE","item_type":"Article","updated_date":"2015-12-11T20:08:15-5:00","created_date":"2015-12-11T10:27:02-5:00","published_date":"2015-12-12T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Fantasy
+        Sports","Gambling"],"org_facet":["DraftKings Inc","FanDuel.com"],"per_facet":["Schneiderman,
+        Eric T"],"geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/12\/sports\/12FANTASYweb\/12FANTASYweb-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"A
+        key issue in the case is whether daily fantasy competitions are games\u00a0of
+        chance or skill.","copyright":"Justin Lane\/European Pressphoto Agency"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/12\/sports\/12FANTASYweb\/12FANTASYweb-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"A
+        key issue in the case is whether daily fantasy competitions are games\u00a0of
+        chance or skill.","copyright":"Justin Lane\/European Pressphoto Agency"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/12\/sports\/12FANTASYweb\/12FANTASYweb-articleInline.jpg","format":"Normal","height":122,"width":190,"type":"image","subtype":"photo","caption":"A
+        key issue in the case is whether daily fantasy competitions are games\u00a0of
+        chance or skill.","copyright":"Justin Lane\/European Pressphoto Agency"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/12\/sports\/12FANTASYweb\/12FANTASYweb-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"A
+        key issue in the case is whether daily fantasy competitions are games\u00a0of
+        chance or skill.","copyright":"Justin Lane\/European Pressphoto Agency"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/12\/sports\/12FANTASYweb\/12FANTASYweb-superJumbo.jpg","format":"superJumbo","height":1316,"width":2048,"type":"image","subtype":"photo","caption":"A
+        key issue in the case is whether daily fantasy competitions are games\u00a0of
+        chance or skill.","copyright":"Justin Lane\/European Pressphoto Agency"}]},{"section":"World","subsection":"Asia
+        Pacific","title":"Chinese Rights Lawyer\u2019s Trial Over Online Comments
+        to Begin Soon","abstract":"The long-delayed case is scheduled to start next
+        week, and the Communist Party-controlled court is virtually certain to convict
+        the lawyer, Pu Zhiqiang.","url":"http:\/\/www.nytimes.com\/2015\/12\/11\/world\/asia\/china-pu-zhiqiang-trial.html","byline":"By
+        CHRIS BUCKLEY","item_type":"Article","updated_date":"2015-12-10T06:56:27-5:00","created_date":"2015-12-10T06:56:34-5:00","published_date":"2015-12-11T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Human
+        Rights and Human Rights Violations","Political Prisoners","Legal Profession"],"org_facet":["Communist
+        Party of China"],"per_facet":["Pu Zhiqiang"],"geo_facet":["China"],"multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/world\/11Chinalawyer-web\/11Chinalawyer-web-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Pu
+        Zhiqiang, a prominent lawyer, was charged with \u201cpicking quarrels\u201d
+        over web comments.","copyright":"Petar Kujundzic\/Reuters"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/world\/11Chinalawyer-web\/11Chinalawyer-web-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Pu
+        Zhiqiang, a prominent lawyer, was charged with \u201cpicking quarrels\u201d
+        over web comments.","copyright":"Petar Kujundzic\/Reuters"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/world\/11Chinalawyer-web\/11Chinalawyer-web-articleInline.jpg","format":"Normal","height":254,"width":190,"type":"image","subtype":"photo","caption":"Pu
+        Zhiqiang, a prominent lawyer, was charged with \u201cpicking quarrels\u201d
+        over web comments.","copyright":"Petar Kujundzic\/Reuters"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/world\/11Chinalawyer-web\/11Chinalawyer-web-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Pu
+        Zhiqiang, a prominent lawyer, was charged with \u201cpicking quarrels\u201d
+        over web comments.","copyright":"Petar Kujundzic\/Reuters"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/world\/11Chinalawyer-web\/11Chinalawyer-web-superJumbo.jpg","format":"superJumbo","height":2007,"width":1504,"type":"image","subtype":"photo","caption":"Pu
+        Zhiqiang, a prominent lawyer, was charged with \u201cpicking quarrels\u201d
+        over web comments.","copyright":"Petar Kujundzic\/Reuters"}]},{"section":"World","subsection":"Asia
+        Pacific","title":"Japan Investigating Hacking Attack on Shinzo Abe\u2019s
+        Website","abstract":"A person claiming to be part of the group Anonymous said
+        access to the prime minister\u2019s site had been disrupted in retaliation
+        for Japan\u2019s resumption of whale hunting.","url":"http:\/\/www.nytimes.com\/2015\/12\/11\/world\/asia\/japan-hacking-shinzo-abe-whale-hunting.html","byline":"By
+        JONATHAN SOBLE","item_type":"Article","updated_date":"2015-12-10T04:31:06-5:00","created_date":"2015-12-10T04:30:32-5:00","published_date":"2015-12-11T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Cyberattacks
+        and Hackers","Whales and Whaling"],"org_facet":["Anonymous (Internet Group)"],"per_facet":["Abe,
+        Shinzo"],"geo_facet":["Japan"],"multimedia":""},{"section":"Business Day","subsection":"","title":"Risk
+        to Aircraft From Drones Being Debated","abstract":"A report from Bard College
+        researchers will add to the discussion over the extent and nature of the risk
+        that unmanned aircraft pose in air safety.","url":"http:\/\/www.nytimes.com\/2015\/12\/11\/business\/risk-to-aircraft-from-drones-being-debated.html","byline":"By
+        JAD MOUAWAD","item_type":"Article","updated_date":"2015-12-10T18:26:09-5:00","created_date":"2015-12-10T18:26:10-5:00","published_date":"2015-12-11T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Drones
+        (Pilotless Planes)","Aviation Accidents, Safety and Disasters","Regulation
+        and Deregulation of Industry","Airports","Airlines and Airplanes"],"org_facet":["Federal
+        Aviation Administration","Bard College","Aero Kinetics Aviation LLC"],"per_facet":"","geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11flight-web\/11flight-web-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"In
+        August, the Federal Aviation Administration said that reports of close calls
+        by pilots had soared, even though F.A.A. rules prohibit drones from being
+        flown near airports.","copyright":"Carlo Allegri\/Reuters"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11flight-web\/11flight-web-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"In
+        August, the Federal Aviation Administration said that reports of close calls
+        by pilots had soared, even though F.A.A. rules prohibit drones from being
+        flown near airports.","copyright":"Carlo Allegri\/Reuters"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11flight-web\/11flight-web-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"In
+        August, the Federal Aviation Administration said that reports of close calls
+        by pilots had soared, even though F.A.A. rules prohibit drones from being
+        flown near airports.","copyright":"Carlo Allegri\/Reuters"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11flight-web\/11flight-web-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"In
+        August, the Federal Aviation Administration said that reports of close calls
+        by pilots had soared, even though F.A.A. rules prohibit drones from being
+        flown near airports.","copyright":"Carlo Allegri\/Reuters"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11flight-web\/11flight-web-superJumbo.jpg","format":"superJumbo","height":1364,"width":2048,"type":"image","subtype":"photo","caption":"In
+        August, the Federal Aviation Administration said that reports of close calls
+        by pilots had soared, even though F.A.A. rules prohibit drones from being
+        flown near airports.","copyright":"Carlo Allegri\/Reuters"}]},{"section":"Business
+        Day","subsection":"","title":"Delta Bans Hoverboards, Citing Batteries&#8217;
+        Safety Risk","abstract":"Delta Air Lines says it is banning hoverboards \u2014
+        the motorized, two-wheel, skateboard-size scooters \u2014 because of the fire
+        danger from the lithium-ion batteries that power the devices.","url":"http:\/\/www.nytimes.com\/2015\/12\/11\/business\/delta-bans-hoverboards-citing-batteries-safety-risk.html","byline":"By
+        THE ASSOCIATED PRESS","item_type":"Article","updated_date":"2015-12-10T20:37:04-5:00","created_date":"2015-12-10T20:37:06-5:00","published_date":"2015-12-11T00:00:00-5:00","material_type_facet":"Brief","kicker":"","des_facet":["Batteries","Skateboarding","Lithium
+        (Metal)","Airlines and Airplanes","hoverboards"],"org_facet":["Delta Air Lines,
+        Inc"],"per_facet":"","geo_facet":"","multimedia":""},{"section":"Business
+        Day","subsection":"","title":"A Middle Ground Between Contract Worker and
+        Employee","abstract":"In the so-called gig economy, ambiguity in the status
+        of workers at on-demand companies like Munchery, Uber and Lyft has led to
+        calls for the creation of a new kind of employment status.","url":"http:\/\/www.nytimes.com\/2015\/12\/11\/business\/a-middle-ground-between-contract-worker-and-employee.html","byline":"By
+        NOAM SCHEIBER","item_type":"Article","updated_date":"2015-12-10T07:37:44-5:00","created_date":"2015-12-10T07:37:50-5:00","published_date":"2015-12-11T00:00:00-5:00","material_type_facet":"News
+        Analysis","kicker":"","des_facet":["Labor and Jobs","Freelancing, Self-Employment
+        and Independent Contracting"],"org_facet":["Munchery Inc","Uber Technologies
+        Inc","Instacart","National Labor Relations Board","Lyft Inc"],"per_facet":"","geo_facet":["United
+        States"],"multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11labor-web1\/11labor-web1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"A
+        driver for Uber loading a customer''s groceries into his car.","copyright":"Dolly
+        Faibyshev for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11labor-web1\/11labor-web1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"A
+        driver for Uber loading a customer''s groceries into his car.","copyright":"Dolly
+        Faibyshev for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11labor-web1\/11labor-web1-articleInline.jpg","format":"Normal","height":126,"width":190,"type":"image","subtype":"photo","caption":"A
+        driver for Uber loading a customer''s groceries into his car.","copyright":"Dolly
+        Faibyshev for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11labor-web1\/11labor-web1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"A
+        driver for Uber loading a customer''s groceries into his car.","copyright":"Dolly
+        Faibyshev for The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11labor-web1\/11labor-web1-superJumbo.jpg","format":"superJumbo","height":1353,"width":2048,"type":"image","subtype":"photo","caption":"A
+        driver for Uber loading a customer''s groceries into his car.","copyright":"Dolly
+        Faibyshev for The New York Times"}]},{"section":"Business Day","subsection":"DealBook","title":"Atlassian
+        Shares Surge on Trading Debut","abstract":"The robust showing brings an upbeat
+        close to what has been a generally dismal year for initial public offerings.","url":"http:\/\/www.nytimes.com\/2015\/12\/11\/business\/dealbook\/atlassian-shares-surge-on-trading-debut.html","byline":"By
+        MICHAEL J. de la MERCED","item_type":"Article","updated_date":"2015-12-10T16:19:25-5:00","created_date":"2015-12-10T16:19:32-5:00","published_date":"2015-12-11T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Initial
+        Public Offerings","Computers and the Internet"],"org_facet":["Atlassian Pty
+        Ltd"],"per_facet":"","geo_facet":"","multimedia":""},{"section":"Business
+        Day","subsection":"DealBook","title":"Yahoo\u2019s Spinoff Plan Does Not Change
+        Its Tax Risk","abstract":"A reverse spinoff of the company\u2019s core business
+        assets and its stake in Yahoo Japan still leaves questions about the company\u2019s
+        strategy.","url":"http:\/\/www.nytimes.com\/2015\/12\/11\/business\/dealbook\/yahoos-spinoff-plan-does-not-change-its-tax-risk.html","byline":"By
+        VICTOR FLEISCHER","item_type":"Article","updated_date":"2015-12-10T14:18:48-5:00","created_date":"2015-12-10T14:18:50-5:00","published_date":"2015-12-11T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Corporate
+        Taxes"],"org_facet":["Alibaba Group Holding Ltd","Internal Revenue Service","Yahoo!
+        Inc"],"per_facet":"","geo_facet":"","multimedia":""},{"section":"Science","subsection":"","title":"A
+        Learning Advance in Artificial Intelligence Rivals Human Abilities","abstract":"An
+        article in the journal Science reported a type of machine learning that outperformed
+        human capabilities for a narrow range of vision-related tasks.","url":"http:\/\/www.nytimes.com\/2015\/12\/11\/science\/an-advance-in-artificial-intelligence-rivals-human-vision-abilities.html","byline":"By
+        JOHN MARKOFF","item_type":"Article","updated_date":"2015-12-10T14:04:32-5:00","created_date":"2015-12-10T14:04:33-5:00","published_date":"2015-12-11T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Artificial
+        Intelligence","Eyes and Eyesight"],"org_facet":["Science (Journal)","Massachusetts
+        Institute of Technology","New York University","University of Toronto","Microsoft
+        Corp"],"per_facet":["Tenenbaum, Joshua B (1972- )"],"geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11vision-web1\/11vision-web1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Humans
+        and machines were given an image of a novel character (represented atop each
+        grid) and then asked to copy it.","copyright":"Brenden Lake"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11vision-web1\/11vision-web1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Humans
+        and machines were given an image of a novel character (represented atop each
+        grid) and then asked to copy it.","copyright":"Brenden Lake"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11vision-web1\/11vision-web1-articleInline.jpg","format":"Normal","height":202,"width":190,"type":"image","subtype":"photo","caption":"Humans
+        and machines were given an image of a novel character (represented atop each
+        grid) and then asked to copy it.","copyright":"Brenden Lake"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11vision-web1\/11vision-web1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Humans
+        and machines were given an image of a novel character (represented atop each
+        grid) and then asked to copy it.","copyright":"Brenden Lake"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11vision-web1\/11vision-web1-superJumbo.jpg","format":"superJumbo","height":2048,"width":1930,"type":"image","subtype":"photo","caption":"Humans
+        and machines were given an image of a novel character (represented atop each
+        grid) and then asked to copy it.","copyright":"Brenden Lake"}]},{"section":"Technology","subsection":"","title":"Mark
+        Zuckerberg of Facebook Reassures Muslim Users","abstract":"Mr. Zuckerberg\u2019s
+        new openness on social media has met up with business considerations.","url":"http:\/\/www.nytimes.com\/2015\/12\/11\/technology\/mark-zuckerberg-of-facebook-reassures-muslim-users.html","byline":"By
+        CHRISTINE HAUSER","item_type":"Article","updated_date":"2015-12-10T13:19:54-5:00","created_date":"2015-12-10T13:20:00-5:00","published_date":"2015-12-11T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Muslim
+        Americans","Muslims and Islam"],"org_facet":["Facebook Inc"],"per_facet":["Zuckerberg,
+        Mark E"],"geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11zuckerberg_express\/11zuckerberg_express-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"Mark
+        Zuckerberg at Facebook''s headquarters in Menlo Park, Calif., in 2013. He
+        wrote \"I want to add my voice in support of Muslims\" in a post on Wednesday.","copyright":"Peter
+        Dasilva\/European Pressphoto Agency"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11zuckerberg_express\/11zuckerberg_express-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"Mark
+        Zuckerberg at Facebook''s headquarters in Menlo Park, Calif., in 2013. He
+        wrote \"I want to add my voice in support of Muslims\" in a post on Wednesday.","copyright":"Peter
+        Dasilva\/European Pressphoto Agency"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11zuckerberg_express\/11zuckerberg_express-articleInline.jpg","format":"Normal","height":127,"width":190,"type":"image","subtype":"photo","caption":"Mark
+        Zuckerberg at Facebook''s headquarters in Menlo Park, Calif., in 2013. He
+        wrote \"I want to add my voice in support of Muslims\" in a post on Wednesday.","copyright":"Peter
+        Dasilva\/European Pressphoto Agency"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11zuckerberg_express\/11zuckerberg_express-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"Mark
+        Zuckerberg at Facebook''s headquarters in Menlo Park, Calif., in 2013. He
+        wrote \"I want to add my voice in support of Muslims\" in a post on Wednesday.","copyright":"Peter
+        Dasilva\/European Pressphoto Agency"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/11\/business\/11zuckerberg_express\/11zuckerberg_express-superJumbo.jpg","format":"superJumbo","height":1365,"width":2048,"type":"image","subtype":"photo","caption":"Mark
+        Zuckerberg at Facebook''s headquarters in Menlo Park, Calif., in 2013. He
+        wrote \"I want to add my voice in support of Muslims\" in a post on Wednesday.","copyright":"Peter
+        Dasilva\/European Pressphoto Agency"}]},{"section":"World","subsection":"Australia","title":"Australian
+        Police Raid Home of Man Said to Be Likely Creator of Bitcoin","abstract":"The
+        police said the raid was for a tax investigation, and a spokesman denied any
+        connection to the Bitcoin reports.","url":"http:\/\/www.nytimes.com\/2015\/12\/10\/world\/australia\/sydney-bitcoin-raid.html","byline":"By
+        MICHELLE INNIS and AUSTIN RAMZY","item_type":"Article","updated_date":"2015-12-09T03:25:11-5:00","created_date":"2015-12-09T03:25:18-5:00","published_date":"2015-12-10T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Bitcoin
+        (Currency)","Computers and the Internet"],"org_facet":["Wired","Gizmodo"],"per_facet":["Wright,
+        Craig Steven (1970- )","Nakamoto, Dorian Satoshi"],"geo_facet":["Australia"],"multimedia":""},{"section":"Technology","subsection":"Personal
+        Tech","title":"Video Feature: Apps, Like Elves, Help Make the Season Bright","abstract":"Apps
+        for creating animated video, thinking of gift ideas, organizing lists, tracking
+        Santa and donating to charities.","url":"http:\/\/www.nytimes.com\/2015\/12\/10\/technology\/personaltech\/video-feature-apps-like-elves-help-make-the-season-bright.html","byline":"By
+        KIT EATON","item_type":"Article","updated_date":"2015-12-09T13:45:54-5:00","created_date":"2015-12-09T13:45:56-5:00","published_date":"2015-12-10T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Mobile
+        Applications","Gifts","Holidays and Special Occasions","Christmas","iOS (Operating
+        System)","Google Phone","Android (Operating System)"],"org_facet":"","per_facet":"","geo_facet":"","multimedia":""},{"section":"Technology","subsection":"Personal
+        Tech","title":"Tech Toys to Inspire a Child\u2019s Imagination","abstract":"These
+        interactive toys incorporate various technologies including virtual reality,
+        animation and robotics.","url":"http:\/\/www.nytimes.com\/2015\/12\/10\/technology\/personaltech\/tech-toys-to-inspire-a-childs-imagination.html","byline":"By
+        GREGORY SCHMIDT","item_type":"Article","updated_date":"2015-12-09T16:44:13-5:00","created_date":"2015-12-09T16:13:00-5:00","published_date":"2015-12-10T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Toys","Gifts","Children
+        and Childhood","Holidays and Special Occasions","Computer and Video Games","Virtual
+        Reality (Computers)","Robots and Robotics","Animated Films","Star Wars: The
+        Force Awakens (Movie)"],"org_facet":["Hasbro Inc","Mattel Inc","Sphero (Orbotix
+        Inc)","Crayola LLC"],"per_facet":"","geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/10\/business\/GADGET2\/GADGET2-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"","copyright":"Tony
+        Cenicola\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/10\/business\/GADGET2\/GADGET2-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"","copyright":"Tony
+        Cenicola\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/10\/business\/GADGET2\/GADGET2-articleInline.jpg","format":"Normal","height":244,"width":190,"type":"image","subtype":"photo","caption":"","copyright":"Tony
+        Cenicola\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/10\/business\/GADGET2\/GADGET2-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"","copyright":"Tony
+        Cenicola\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/10\/business\/GADGET2\/GADGET2-superJumbo.jpg","format":"superJumbo","height":2048,"width":1597,"type":"image","subtype":"photo","caption":"","copyright":"Tony
+        Cenicola\/The New York Times"}]},{"section":"Technology","subsection":"","title":"How
+        to Sell or Recycle Old Electronics","abstract":"Reviewing the gadget trade-in
+        and recycling programs offered by Amazon, Gazelle and Best Buy.","url":"http:\/\/www.nytimes.com\/2015\/12\/03\/technology\/how-to-sell-or-recycle-old-electronics.html","byline":"By
+        BRIAN X. CHEN","item_type":"Article","updated_date":"2015-12-02T12:36:22-5:00","created_date":"2015-12-02T12:36:29-5:00","published_date":"2015-12-03T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Waste
+        Materials and Disposal","Recycling of Waste Materials","Electronics","Hazardous
+        and Toxic Substances","Gift Cards and Certificates"],"org_facet":["Amazon.com
+        Inc","Best BUY Company Inc","Gazelle.com","PayPal"],"per_facet":"","geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/03\/technology\/03techfix-illo\/03techfix-illo-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"","copyright":"Tom
+        Grillo"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/03\/technology\/03techfix-illo\/03techfix-illo-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"","copyright":"Tom
+        Grillo"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/03\/technology\/03techfix-illo\/03techfix-illo-articleInline.jpg","format":"Normal","height":133,"width":190,"type":"image","subtype":"photo","caption":"","copyright":"Tom
+        Grillo"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/03\/technology\/03techfix-illo\/03techfix-illo-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"","copyright":"Tom
+        Grillo"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/12\/03\/technology\/03techfix-illo\/03techfix-illo-superJumbo.jpg","format":"superJumbo","height":1434,"width":2048,"type":"image","subtype":"photo","caption":"","copyright":"Tom
+        Grillo"}]},{"section":"Technology","subsection":"Personal Tech","title":"Black
+        Friday Deal or Dud? How to Shop Smart This Holiday Season","abstract":"Only
+        a small fraction of Black Friday discounts are true bargains, according to
+        the editor of The Wirecutter, a product recommendation site. But there\u2019s
+        a way to check which purchases are worthwhile.","url":"http:\/\/www.nytimes.com\/2015\/11\/26\/technology\/personaltech\/black-friday-deal-or-dud-how-to-shop-smart-this-holiday-season.html","byline":"By
+        BRIAN X. CHEN","item_type":"Article","updated_date":"2015-11-25T11:28:56-5:00","created_date":"2015-11-25T11:29:03-5:00","published_date":"2015-11-26T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Black
+        Friday and Cyber Monday (Shopping)","Prices (Fares, Fees and Rates)","E-Commerce"],"org_facet":"","per_facet":"","geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/25\/business\/26TECHFIX-web\/26TECHFIX-web-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"","copyright":"Minh
+        Uong\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/25\/business\/26TECHFIX-web\/26TECHFIX-web-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"","copyright":"Minh
+        Uong\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/25\/business\/26TECHFIX-web\/26TECHFIX-web-articleInline.jpg","format":"Normal","height":108,"width":190,"type":"image","subtype":"photo","caption":"","copyright":"Minh
+        Uong\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/25\/business\/26TECHFIX-web\/26TECHFIX-web-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"","copyright":"Minh
+        Uong\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/25\/business\/26TECHFIX-web\/26TECHFIX-web-superJumbo.jpg","format":"superJumbo","height":1165,"width":2048,"type":"image","subtype":"photo","caption":"","copyright":"Minh
+        Uong\/The New York Times"}]},{"section":"Technology","subsection":"Personal
+        Tech","title":"Gear VR Offers a Preview of Virtual Reality in the Home","abstract":"For
+        an early stab at consumer virtual reality, the Gear VR is a work in progress
+        that can cause eye strain and weigh heavily on the head.","url":"http:\/\/www.nytimes.com\/2015\/11\/23\/technology\/personaltech\/gear-vr-offers-a-preview-of-virtual-reality-in-the-home.html","byline":"By
+        BRIAN X. CHEN","item_type":"Article","updated_date":"2015-11-20T09:00:02-5:00","created_date":"2015-11-20T09:00:08-5:00","published_date":"2015-11-23T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Virtual
+        Reality (Computers)","Headphones and Headsets","Wearable Computing","Computer
+        and Video Games","Smartphones","Gear VR"],"org_facet":["Samsung Electronics
+        Co","Oculus VR Inc"],"per_facet":"","geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/20\/business\/20techfix1\/20techfix1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"An
+        image from the game Jurassic World, available in virtual reality on the Gear
+        VR.","copyright":"Oculus VR"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/20\/business\/20techfix1\/20techfix1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"An
+        image from the game Jurassic World, available in virtual reality on the Gear
+        VR.","copyright":"Oculus VR"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/20\/business\/20techfix1\/20techfix1-articleInline.jpg","format":"Normal","height":107,"width":190,"type":"image","subtype":"photo","caption":"An
+        image from the game Jurassic World, available in virtual reality on the Gear
+        VR.","copyright":"Oculus VR"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/20\/business\/20techfix1\/20techfix1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"An
+        image from the game Jurassic World, available in virtual reality on the Gear
+        VR.","copyright":"Oculus VR"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/20\/business\/20techfix1\/20techfix1-superJumbo.jpg","format":"superJumbo","height":1157,"width":2048,"type":"image","subtype":"photo","caption":"An
+        image from the game Jurassic World, available in virtual reality on the Gear
+        VR.","copyright":"Oculus VR"}]},{"section":"Health","subsection":"","title":"Special
+        Section: Wired Well","abstract":"We explore the lives of newly wired consumers
+        and the consequences, good and bad, that arise from our increasing reliance
+        on trackers, monitors, guides and a vast array of other devices to better
+        our health.","url":"http:\/\/well.blogs.nytimes.com\/2015\/11\/16\/special-section-wired-well\/","byline":"By
+        TARA PARKER-POPE","item_type":"Blogpost","updated_date":"2015-11-16T20:49:37-5:00","created_date":"2015-11-16T17:35:11-5:00","published_date":"2015-11-16T17:32:40-5:00","material_type_facet":"News","kicker":"Well","des_facet":"","org_facet":"","per_facet":"","geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/17\/science\/wellcover\/wellcover-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"","copyright":"Mark
+        Allen Miller"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/17\/science\/wellcover\/wellcover-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"","copyright":"Mark
+        Allen Miller"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/17\/science\/wellcover\/wellcover-articleInline.jpg","format":"Normal","height":240,"width":190,"type":"image","subtype":"photo","caption":"","copyright":"Mark
+        Allen Miller"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/17\/science\/wellcover\/wellcover-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"","copyright":"Mark
+        Allen Miller"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/17\/science\/wellcover\/wellcover-superJumbo.jpg","format":"superJumbo","height":2048,"width":1620,"type":"image","subtype":"photo","caption":"","copyright":"Mark
+        Allen Miller"}]},{"section":"Technology","subsection":"Personal Tech","title":"The
+        High Price of Delivery App Convenience","abstract":"With a tap on a smartphone,
+        consumers in some areas can have almost anything delivered within hours. But
+        the cost of that is significant, and not always obvious.","url":"http:\/\/www.nytimes.com\/2015\/11\/05\/technology\/personaltech\/the-high-price-of-delivery-app-convenience.html","byline":"By
+        BRIAN X. CHEN","item_type":"Article","updated_date":"2015-11-04T05:00:03-5:00","created_date":"2015-11-04T05:00:05-5:00","published_date":"2015-11-05T00:00:00-5:00","material_type_facet":"News","kicker":"","des_facet":["Mobile
+        Applications","Delivery Services","Prices (Fares, Fees and Rates)"],"org_facet":["Instacart","Postmates
+        Inc","Uber Technologies Inc","Amazon.com Inc"],"per_facet":"","geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/04\/business\/04TECHFIX-web\/04TECHFIX-web-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"","copyright":"Minh
+        Uong\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/04\/business\/04TECHFIX-web\/04TECHFIX-web-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"","copyright":"Minh
+        Uong\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/04\/business\/04TECHFIX-web\/04TECHFIX-web-articleInline.jpg","format":"Normal","height":135,"width":190,"type":"image","subtype":"photo","caption":"","copyright":"Minh
+        Uong\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/04\/business\/04TECHFIX-web\/04TECHFIX-web-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"","copyright":"Minh
+        Uong\/The New York Times"},{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/04\/business\/04TECHFIX-web\/04TECHFIX-web-superJumbo.jpg","format":"superJumbo","height":1457,"width":2048,"type":"image","subtype":"photo","caption":"","copyright":"Minh
+        Uong\/The New York Times"}]},{"section":"Technology","subsection":"Personal
+        Tech","title":"Updating Windows 10","abstract":"As part of its switch to Windows
+        10 as a \u201cservice\u201d that automatically updates itself, Microsoft has
+        pushed out its Windows 10 November Update.","url":"http:\/\/www.nytimes.com\/2015\/11\/26\/technology\/personaltech\/updating-windows-10.html","byline":"By
+        J. D. BIERSDORFER","item_type":"Article","updated_date":"2015-12-01T21:16:29-5:00","created_date":"2015-11-25T09:41:08-5:00","published_date":"2015-11-26T00:00:00-5:00","material_type_facet":"Question","kicker":"","des_facet":["Computers
+        and the Internet","Windows (Operating System)","Television Sets and Media
+        Devices"],"org_facet":["Apple TV","Google Inc","Microsoft Corp"],"per_facet":"","geo_facet":"","multimedia":[{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/26\/business\/26askk-web1\/26askk-web1-thumbStandard.jpg","format":"Standard
+        Thumbnail","height":75,"width":75,"type":"image","subtype":"photo","caption":"","copyright":""},{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/26\/business\/26askk-web1\/26askk-web1-thumbLarge.jpg","format":"thumbLarge","height":150,"width":150,"type":"image","subtype":"photo","caption":"","copyright":""},{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/26\/business\/26askk-web1\/26askk-web1-articleInline.jpg","format":"Normal","height":120,"width":190,"type":"image","subtype":"photo","caption":"","copyright":""},{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/26\/business\/26askk-web1\/26askk-web1-mediumThreeByTwo210.jpg","format":"mediumThreeByTwo210","height":140,"width":210,"type":"image","subtype":"photo","caption":"","copyright":""},{"url":"http:\/\/static01.nyt.com\/images\/2015\/11\/26\/business\/26askk-web1\/26askk-web1-superJumbo.jpg","format":"superJumbo","height":629,"width":998,"type":"image","subtype":"photo","caption":"","copyright":""}]}]}'
+    http_version: 
+  recorded_at: Sun, 13 Dec 2015 01:05:29 GMT
+recorded_with: VCR 2.5.0

@@ -30,4 +30,9 @@ class Dashboard < Sinatra::Base
     erb :events
   end
 
+  get '/news' do
+    @articles = News.new.all
+    erb :news
+  end
+
 end
